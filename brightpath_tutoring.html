@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPath Tutoring - Guiding Your Future</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background-color: #0d1a2b; /* Deep Navy Blue */
+            background-image: linear-gradient(135deg, #0d1a2b 0%, #1e3a8a 100%); /* Blue gradient */
+        }
+        .path-symbol {
+            color: #fcd34d; /* Bright Yellow/Gold */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
+            <a href="#" class="flex items-center space-x-3">
+                <!-- Logo Placeholder -->
+                <div class="h-8 w-8 rounded-full bg-cyan-500 flex items-center justify-center shadow-lg">
+                    <svg class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z"></path></svg>
+                </div>
+                <span class="text-xl font-bold text-navy-800">BrightPath Tutoring</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#services" class="text-gray-600 hover:text-cyan-600 transition duration-300">Services</a>
+                <a href="#method" class="text-gray-600 hover:text-cyan-600 transition duration-300">Method</a>
+                <a href="#contact" class="text-white bg-cyan-500 hover:bg-cyan-600 px-4 py-2 rounded-lg shadow-md transition duration-300">Book Now</a>
+            </nav>
+            <button class="md:hidden text-gray-600 hover:text-cyan-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-20 sm:py-32 text-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-5xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                Your <span class="path-symbol">Clear Path</span> to Academic Excellence
+            </h2>
+            <p class="text-xl sm:text-2xl mb-8 opacity-90">
+                Specialized one-on-one tutoring designed to build confidence, fill knowledge gaps, and maximize potential.
+            </p>
+            <a href="#contact" class="inline-block bg-yellow-400 text-gray-900 font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:bg-yellow-300 transition duration-300 transform hover:scale-105">
+                Start Your Journey Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-4xl font-bold text-center mb-12 text-cyan-700">What We Cover</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Service Card 1: Mathematics -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 transition duration-300 hover:shadow-xl">
+                    <svg class="w-10 h-10 path-symbol mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Core Mathematics</h4>
+                    <p class="text-gray-600">From foundation phase arithmetic to complex Calculus and Algebra. We break down difficult concepts into manageable steps.</p>
+                </div>
+
+                <!-- Service Card 2: Science -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg border-t-4 border-cyan-500 transition duration-300 hover:shadow-xl">
+                    <svg class="w-10 h-10 text-cyan-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9.75 19L11.25 19L11.25 17L9.75 17ZM15 17L15 19L16.5 19L16.5 17L15 17ZM12.75 5L12.75 17L14.25 17L14.25 5L12.75 5ZM6 5L6 17L7.5 17L7.5 5L6 5ZM18 5L18 17L19.5 17L19.5 5L18 5Z"></path></svg>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Physical & Life Sciences</h4>
+                    <p class="text-gray-600">Master Physics, Chemistry, and Biology. Focus on practical application and exam technique for high-stakes papers.</p>
+                </div>
+
+                <!-- Service Card 3: Exam Prep -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 transition duration-300 hover:shadow-xl">
+                    <svg class="w-10 h-10 path-symbol mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.49 9.352 5.105 8 5.105 5.092 5.105 2.825 6.953 2.825 9.873S5.092 14.64 8 14.64c1.352 0 2.832-.385 4-1.147M12 6.253c1.168.862 2.648 1.247 4 1.247 2.908 0 5.175-1.848 5.175-4.768S17.908 2.5 15 2.5c-1.352 0-2.832.385-4 1.247m0 0v13"></path></svg>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">High School & Matric Prep</h4>
+                    <p class="text-gray-600">Targeted support for Grades 10-12, focusing on final exams, time management, and study skills for university readiness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="method" class="py-16 md:py-24 hero-bg text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-4xl font-bold mb-12 text-yellow-400">Our Proven BrightPath Methodology</h3>
+            <div class="space-y-10">
+                <!-- Step 1 -->
+                <div class="md:flex md:items-center md:space-x-8 text-left bg-gray-800 bg-opacity-30 p-6 rounded-xl shadow-xl">
+                    <div class="flex-shrink-0 w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center font-extrabold text-2xl text-white mb-4 md:mb-0">1</div>
+                    <div>
+                        <h4 class="text-2xl font-semibold mb-2">Diagnostic Clarity</h4>
+                        <p class="text-gray-200">We begin with a thorough assessment to pinpoint the exact gaps in knowledge, ensuring every session is targeted and efficient.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="md:flex md:items-center md:space-x-8 text-left bg-gray-800 bg-opacity-30 p-6 rounded-xl shadow-xl">
+                    <div class="flex-shrink-0 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center font-extrabold text-2xl text-gray-900 mb-4 md:mb-0">2</div>
+                    <div>
+                        <h4 class="text-2xl font-semibold mb-2">Personalized Curriculum</h4>
+                        <p class="text-gray-200">Sessions are customized to the student's learning style (visual, auditory, kinesthetic) and the specific curriculum requirements (IEB/CAPS/Cambridge).</p>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="md:flex md:items-center md:space-x-8 text-left bg-gray-800 bg-opacity-30 p-6 rounded-xl shadow-xl">
+                    <div class="flex-shrink-0 w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center font-extrabold text-2xl text-white mb-4 md:mb-0">3</div>
+                    <div>
+                        <h4 class="text-2xl font-semibold mb-2">Confidence & Application</h4>
+                        <p class="text-gray-200">We don't just teach theory; we focus on problem-solving skills and building the mental resilience needed to succeed under exam pressure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-4xl font-bold text-center mb-4 text-gray-900">Ready to Illuminate Your Path?</h3>
+            <p class="text-xl text-center mb-12 text-gray-600">Book a free, 15-minute consultation to discuss your specific academic needs.</p>
+            
+            <form id="consultation-form" class="bg-white p-8 rounded-xl shadow-2xl border-t-4 border-yellow-400">
+                <div class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                        <input type="text" id="name" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 transition duration-300">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                        <input type="email" id="email" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 transition duration-300">
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-gray-700">Subject/Grade Level Needed</label>
+                        <textarea id="subject" rows="3" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 transition duration-300"></textarea>
+                    </div>
+                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-lg text-lg font-medium text-gray-900 bg-yellow-400 hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 transition duration-300 transform hover:scale-[1.01]">
+                        Request Free Consultation
+                    </button>
+                </div>
+            </form>
+            
+            <!-- Success Message Modal -->
+            <div id="success-message" class="hidden fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center p-4 z-20">
+                <div class="bg-white p-8 rounded-xl shadow-2xl text-center max-w-sm">
+                    <svg class="w-16 h-16 text-cyan-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">Success!</h4>
+                    <p class="text-gray-600 mb-6">Thank you! We have received your consultation request and will be in touch within 24 hours to guide your academic path.</p>
+                    <button id="close-modal" class="w-full py-2 px-4 rounded-lg bg-cyan-500 text-white hover:bg-cyan-600 transition duration-300">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="hero-bg text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-lg font-semibold mb-2">BrightPath Tutoring</p>
+            <p class="text-sm opacity-75">&copy; 2026 BrightPath Tutoring. All rights reserved.</p>
+            <div class="mt-4 space-x-4 text-sm">
+                <a href="#" class="hover:text-yellow-400">Privacy Policy</a>
+                <a href="mailto:info@brightpath.com" class="hover:text-yellow-400">info@brightpath.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Form Submission -->
+    <script>
+        document.getElementById('consultation-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // In a real application, you would send this data to a server here.
+            // For this demonstration, we just show the success message.
+            
+            document.getElementById('success-message').classList.remove('hidden');
+
+            // Reset the form fields
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('subject').value = '';
+        });
+
+        document.getElementById('close-modal').addEventListener('click', function() {
+            document.getElementById('success-message').classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
